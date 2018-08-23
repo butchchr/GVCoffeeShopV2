@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCCoffeeShopV2", "GCCoffeeShopV2\GCCoffeeShopV2.csproj", "{8B45F872-BEDA-4777-A62D-18A354C7CD90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCCoffeeShopV2.Tests", "GCCoffeeShopV2.Tests\GCCoffeeShopV2.Tests.csproj", "{D7257176-BBAA-4EF6-9FFE-989FBF31DD55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B45F872-BEDA-4777-A62D-18A354C7CD90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B45F872-BEDA-4777-A62D-18A354C7CD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B45F872-BEDA-4777-A62D-18A354C7CD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B45F872-BEDA-4777-A62D-18A354C7CD90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7257176-BBAA-4EF6-9FFE-989FBF31DD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7257176-BBAA-4EF6-9FFE-989FBF31DD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7257176-BBAA-4EF6-9FFE-989FBF31DD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7257176-BBAA-4EF6-9FFE-989FBF31DD55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE4ED7AD-BF6B-4E5C-B37B-A78D48A05B5F}
+	EndGlobalSection
+EndGlobal
