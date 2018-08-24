@@ -18,6 +18,8 @@ namespace GCCoffeeShopV2.Data.Maps
                 .IsRequired();
             Property(x => x.DateOfBirth)
                 .IsRequired();
+            Property(x => x.FavoriteCoffee)
+                .IsRequired();
             Property(x => x.Email)
                 .HasMaxLength(254)
                 .IsRequired();
