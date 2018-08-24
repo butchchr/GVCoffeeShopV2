@@ -5,7 +5,7 @@
 <div class="jumbotron">
     <h1>Just a Cuppa</h1>
     <p class="lead">A simple coffee shop<br/>powered by Grand Circus</p>
-    <p><a href="/home/register" class="btn btn-primary btn-lg">Register &raquo;</a></p>
+    <p><a href="@Url.Action("Index", "Customer")" class="btn btn-primary btn-lg">Customers &raquo;</a></p>
 </div>
 
 <div class="row">
@@ -19,6 +19,6 @@
     </div>
     <div class="col-md-4">
         <h2>For the Staff</h2>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Admin Access &raquo;</a></p>
+        <p><a class="btn btn-default" href="@Url.Action("Index","Products")">Admin Access &raquo;</a></p>
     </div>
 </div>

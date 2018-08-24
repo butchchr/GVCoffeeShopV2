@@ -16,7 +16,7 @@ namespace GCCoffeeShopV2.Data
             {
                 ProductName = "Dark Roast",
                 Price = 9.99m,
-                Description = "A pound of burned beans"
+                Description = "A simple pound of beans"
             };
             context.Products.Add(product);
 
@@ -25,6 +25,7 @@ namespace GCCoffeeShopV2.Data
                 FirstName = "Jill",
                 LastName = "Palms",
                 DateOfBirth = new DateTime(1990, 4, 20),
+                FavoriteCoffee = "Black",
                 Email = "JillPalms@Michigan.org",
                 Password = "BillyTheSquid"
             };

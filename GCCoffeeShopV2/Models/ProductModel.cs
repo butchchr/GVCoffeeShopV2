@@ -15,11 +15,9 @@ namespace GCCoffeeShopV2.Models
         [MaxLength(50)]
         public string ProductName { get; set; }
 
-        [Display(Name = "Price")]
         [Required]
         public decimal? Price { get; set; }
 
-        [Display(Name = "Description")]
         [Required]
         [MaxLength(50)]
         public string Description { get; set; }

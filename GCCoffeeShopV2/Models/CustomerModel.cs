@@ -23,12 +23,16 @@ namespace GCCoffeeShopV2.Models
         [Display(Name = "Date of Birth")]
         [Required]
         [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:d}")]
         public DateTime? DateOfBirth { get; set; }
 
         [Required]
         [EmailAddress]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+
+        [Required]
+        public string FavoriteCoffee { get; set; }
         
         [Required]
         [MinLength(6)]
